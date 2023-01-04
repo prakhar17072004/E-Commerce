@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+    <head>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://www.gstatic.com/firebasejs/8.10.1/firebase-app.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/8.10.1/firebase-firestore.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/8.10.0/firebase-analytics.js"></script>
+    <script src="./firebase.js"></script>
+    <script src="./cart.js"></script>
+    </head>
+    <body>
+        <div class="navbar">
+			<div class="logo">E-commerce</div>
+		</div>
+		<nav>
+			<ul>
+				<li><a href="./index.html">All Products</a></li>
+
+				<li><a href="./newproduct.html">New Product</a></li>
+			</ul>
+		</nav>
+
+		<!--cart -->
+
+		<div class="cart-container">
+			
+            <div class="cart-page">
+				<table>
+					<tr>
+						<th>Product</th>
+						<th>Quantity</th>
+						<th>SubTotal</th>
+					</tr>
+					
+				</table>
+
+			</div>
+			<div class="cart">
+				
+                
+			</div>
+			<div class="total">
+				<div class="total-title">Total</div>
+				<div class="total-price">$ 0</div>
+			</div>
+		</div>
+    </body>
+</html>

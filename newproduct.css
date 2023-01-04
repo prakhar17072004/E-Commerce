@@ -1,0 +1,71 @@
+body{
+    background-color:rgb(36, 221, 36)
+}
+nav{
+    flex: 1;
+    text-align: right;
+}
+nav ul{
+    display: inline-block;
+    list-style-type: none;
+}
+nav ul li{
+    display: inline-block;
+    margin-right:30px ;
+    color:black;
+
+}
+h1{
+   color: white; 
+   margin-top: 30px;
+}
+.card{
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    max-width: 300px;
+    margin: auto;
+    text-align: center;
+    font-family: arial;
+    margin-bottom: 50px;
+    position:relative;
+    background-color:black;
+    
+}
+.input{
+    padding-top: 10px;
+    padding-bottom: 10px;
+
+    margin-top: 20px;
+  }
+  .TEXT{
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin-bottom: 0px;
+  }
+  .NUMBER{
+    padding-top: 10px;
+    padding-bottom: 10px;
+  }
+  .URL{
+    padding-top: 10px;
+    padding-bottom: 10px;
+  }
+  .Quantity{
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin-bottom: 50px;
+  }
+  button{
+     
+    border: none;
+    outline: 0;
+    padding: 12px;
+    color: black;
+    background-color: white;
+    text-align: center;
+    cursor: pointer;
+    width: 100%;
+    font-size: 18px;
+  }
+  button:hover {
+    opacity: 0.7;
+  }
